@@ -264,7 +264,7 @@ LASwriteItemCompressed_GPSTIME11_v2::~LASwriteItemCompressed_GPSTIME11_v2()
 BOOL LASwriteItemCompressed_GPSTIME11_v2::init(const U8* item)
 {
   /* init state */
-  last = 0, next = 0;
+    last = 0; next = 0;
   last_gpstime_diff[0] = 0;
   last_gpstime_diff[1] = 0;
   last_gpstime_diff[2] = 0;
